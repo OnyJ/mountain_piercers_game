@@ -1,0 +1,98 @@
+Mountain Piercers roadmap
+
+
+index
+  - description
+  - execution
+  - features
+  - bonus
+  - architecture
+
+description
+Cross the mountain fighting your ennemies.
+
+
+execution
+- main menu (play / cut sound)
+- cinematic + skip button
+- instruction "break the wall by shooting"
+- game (procedural generation)
+- controls
+  - esc = pause menu + controls
+  - left right = move vehicle
+  - space = shoot
+  - mouse = shooter character follows
+- lvl 1: 1 monster type coming (qté*1)
+- lvl 2: 2 monster types coming (qté*1)
+- chq lvl++ = qté*++
+- lvl 5: first boss
+
+
+features
+- global : file organization
+- global : github
+- chara  : design parts
+- chara  : animations (static, forward, backw)
+- chara  : explosion = die
+- chara  : movements + collisions
+- shoot  : design projectiles
+- shoot  : shoot animation
+- shoot  : shoot collisions
+- map    : ground texture (repetition)
+- map    : design 1 wall type
+- map    : design 1 wall cracking level * 3 types
+- map    : design 1 wall falling parts
+- map    : implement wall
+- map    : implement wall falling animation
+- map    : wall interaction (cracking/falling) on hp
+- monstr : design 1 monster parts (pink spider)
+- monstr : animations (walk, attack, die) 
+- monstr : movements + collisions
+- monstr : IA direction (left+detect char)
+- monstr : IA + attack if near
+- game   : hp bar
+- game   : detect death
+- game   : score system (walls=level, enemies)
+- sound  : music
+- sound  : char movement
+- sound  : char shooting
+- sound  : char die/explode
+- sound  : monster walk
+- sound  : monster attack
+- sound  : monster die
+- sound  : wall cracking
+- sound  : wall falling
+- menu   : play game
+- menu   : pause game
+- menu   : quit game
+- submit : submit v1 online, export godot
+- submit : screenshoots, gifs and page details
+
+
+bonus
+- map    : detais (spiderweb,rocks,stripes...)
+- items  : design bonus weapons/projectiles
+- items  : weapons animations/collisions/replacement
+- items  : weapons sounds
+- items  : appearence by level
+- monstr : flying
+- monstr : boss : big pink worm with prickly legs
+- monstr : boss : big blob with head rushes
+- monstr : add multiple boss
+- map    : wall types
+
+
+architecture
+ style guide :
+  - folders and files = snake_case
+  - node names = PascalCase
+ organization idea
+  - group assets as close to scenes as possible
+    eg: characters/player/any_player_files, 
+        characters/enemies/goblin/any_goblin_files
+        levels/...
+        docs/...
+ importing
+  - .gdignore
+ 
+
