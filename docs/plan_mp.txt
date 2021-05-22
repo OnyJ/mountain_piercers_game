@@ -7,6 +7,8 @@ index
   - features
   - bonus
   - architecture
+  - doc
+  - design history
 
 description
 Cross the mountain fighting your ennemies.
@@ -29,12 +31,14 @@ execution
 
 
 features
-- global : file organization
-- global : github
-- chara  : design parts
+x global : file organization
+x global : github
+regarder godot 50min ? en accelere ?
+- chara  : design parts https://tinyurl.com/Gd2dAnim
 - chara  : animations (static, forward, backw)
 - chara  : explosion = die
 - chara  : movements + collisions
+- chara  : camera https://tinyurl.com/ytCamera2d
 - shoot  : design projectiles
 - shoot  : shoot animation
 - shoot  : shoot collisions
@@ -50,7 +54,7 @@ features
 - monstr : movements + collisions
 - monstr : IA direction (left+detect char)
 - monstr : IA + attack if near
-- game   : hp bar
+- game   : hp bar (cf doc > menu ui signals)
 - game   : detect death
 - game   : score system (walls=level, enemies)
 - sound  : music
@@ -95,4 +99,28 @@ architecture
  importing
   - .gdignore
  
+
+documentation
+- Random Level Generation Playlist Youtube
+    https://tinyurl.com/ytRandomLevelGen
+- Platform Game Tutorial Playlist Youtube
+    https://tinyurl.com/ytPlatformGamePlaylist
+- Autotile youtube
+    https://tinyurl.com/ytAutotile
+- Wikihow sprite sheets
+    https://tinyurl.com/wikihowSprites
+- Menu UI Signals
+    https://tinyurl.com/ytMenuSignalUI
+- Parallax Background Yt
+    https://tinyurl.com/ytParallaxBg
+- Godot 50min Yt
+    https://tinyurl.com/ytGodot50min
+
+
+design history
+ scales for sprites
+  - 64*64   = godot logo
+  - 192*128 = (3*64)width * (2*64)height
+
+
 
