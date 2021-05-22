@@ -1,5 +1,7 @@
 Mountain Piercers roadmap
 
+jam link
+https://itch.io/jam/goblin-bunker-game-jam-may-2021
 
 index
   - description
@@ -33,7 +35,6 @@ execution
 features
 x global : file organization
 x global : github
-regarder godot 50min ? en accelere ?
 - chara  : design parts https://tinyurl.com/Gd2dAnim
 - chara  : animations (static, forward, backw)
 - chara  : explosion = die
@@ -70,7 +71,7 @@ regarder godot 50min ? en accelere ?
 - menu   : pause game
 - menu   : quit game
 - submit : submit v1 online, export godot
-- submit : screenshoots, gifs and page details
+- submit : screenshoots, gifs and page details, logo
 
 
 bonus
@@ -84,6 +85,7 @@ bonus
 - monstr : boss : big blob with head rushes
 - monstr : add multiple boss
 - map    : wall types
+- player : shooter becomes stronger
 
 
 architecture
@@ -115,6 +117,10 @@ documentation
     https://tinyurl.com/ytParallaxBg
 - Godot 50min Yt
     https://tinyurl.com/ytGodot50min
+- AI that follows you
+    https://tinyurl.com/ytAIfollowYou
+- Godot Cutout Animations Yt
+    https://tinyurl.com/ytCutoutAnimations
 
 
 design history
