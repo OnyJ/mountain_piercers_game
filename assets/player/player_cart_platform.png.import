@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ground_rock.png-ef47123925e2ec658434c60d12cd1658.stex"
+path="res://.import/player_cart_platform.png-e5b32e3abc85d091abd6514149593829.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ground/ground_rock.png"
-dest_files=[ "res://.import/ground_rock.png-ef47123925e2ec658434c60d12cd1658.stex" ]
+source_file="res://assets/player/player_cart_platform.png"
+dest_files=[ "res://.import/player_cart_platform.png-e5b32e3abc85d091abd6514149593829.stex" ]
 
 [params]
 

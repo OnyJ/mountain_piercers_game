@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ground_rock.png-ef47123925e2ec658434c60d12cd1658.stex"
+path="res://.import/player_shooter_mouth_spit.png-c072ac8e63878f3697d875b02ecc4342.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ground/ground_rock.png"
-dest_files=[ "res://.import/ground_rock.png-ef47123925e2ec658434c60d12cd1658.stex" ]
+source_file="res://assets/player/player_shooter_mouth_spit.png"
+dest_files=[ "res://.import/player_shooter_mouth_spit.png-c072ac8e63878f3697d875b02ecc4342.stex" ]
 
 [params]
 
