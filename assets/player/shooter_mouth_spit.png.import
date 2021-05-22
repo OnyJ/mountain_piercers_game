@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player_cart.png-d333f4a4fa938562ad4d9f6ab6807654.stex"
+path="res://.import/shooter_mouth_spit.png-44e5f1f97e49694275931b5d19b940ba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_cart.png"
-dest_files=[ "res://.import/player_cart.png-d333f4a4fa938562ad4d9f6ab6807654.stex" ]
+source_file="res://assets/player/shooter_mouth_spit.png"
+dest_files=[ "res://.import/shooter_mouth_spit.png-44e5f1f97e49694275931b5d19b940ba.stex" ]
 
 [params]
 
