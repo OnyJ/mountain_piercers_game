@@ -1499,7 +1499,7 @@ tracks/29/keys = {
 extents = Vector2( 252.76, 114.368 )
 
 [sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 48.5679, 203.54 )
+extents = Vector2( 48.5679, 299.135 )
 
 [sub_resource type="AnimationNodeAnimation" id=7]
 animation = "die"
@@ -1641,7 +1641,7 @@ position = Vector2( -64.6177, -19.3853 )
 shape = SubResource( 5 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2( -51.6942, -302.411 )
+position = Vector2( -49.2388, -210.331 )
 shape = SubResource( 6 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
