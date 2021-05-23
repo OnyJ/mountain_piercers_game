@@ -1,14 +1,14 @@
 [gd_scene load_steps=25 format=2]
 
-[ext_resource path="res://assets/player/wheel.png" type="Texture" id=1]
-[ext_resource path="res://assets/player/cart.png" type="Texture" id=2]
-[ext_resource path="res://assets/player/cart_platform.png" type="Texture" id=3]
-[ext_resource path="res://assets/player/body_shooter.png" type="Texture" id=4]
-[ext_resource path="res://assets/player/cart_mast.png" type="Texture" id=5]
-[ext_resource path="res://assets/player/arm_leg.png" type="Texture" id=6]
-[ext_resource path="res://assets/player/body_angry.png" type="Texture" id=7]
-[ext_resource path="res://assets/player/body_happy.png" type="Texture" id=8]
-[ext_resource path="res://assets/player/shooter_mouth_closed.png" type="Texture" id=9]
+[ext_resource path="res://docs/assets/player/wheel.png" type="Texture" id=1]
+[ext_resource path="res://docs/assets/player/cart.png" type="Texture" id=2]
+[ext_resource path="res://docs/assets/player/cart_platform.png" type="Texture" id=3]
+[ext_resource path="res://docs/assets/player/body_shooter.png" type="Texture" id=4]
+[ext_resource path="res://docs/assets/player/cart_mast.png" type="Texture" id=5]
+[ext_resource path="res://docs/assets/player/arm_leg.png" type="Texture" id=6]
+[ext_resource path="res://docs/assets/player/body_angry.png" type="Texture" id=7]
+[ext_resource path="res://docs/assets/player/body_happy.png" type="Texture" id=8]
+[ext_resource path="res://docs/assets/player/shooter_mouth_closed.png" type="Texture" id=9]
 [ext_resource path="res://scenes/Player.gd" type="Script" id=10]
 
 [sub_resource type="Animation" id=1]
@@ -1498,35 +1498,35 @@ tracks/29/keys = {
 [sub_resource type="RectangleShape2D" id=5]
 extents = Vector2( 252.76, 114.368 )
 
-[sub_resource type="RectangleShape2D" id=14]
+[sub_resource type="RectangleShape2D" id=6]
 extents = Vector2( 48.5679, 203.54 )
 
-[sub_resource type="AnimationNodeAnimation" id=6]
+[sub_resource type="AnimationNodeAnimation" id=7]
 animation = "die"
 
-[sub_resource type="AnimationNodeAnimation" id=7]
+[sub_resource type="AnimationNodeAnimation" id=8]
 animation = "idle"
 
-[sub_resource type="AnimationNodeAnimation" id=8]
+[sub_resource type="AnimationNodeAnimation" id=9]
 animation = "move"
-
-[sub_resource type="AnimationNodeStateMachineTransition" id=9]
 
 [sub_resource type="AnimationNodeStateMachineTransition" id=10]
 
 [sub_resource type="AnimationNodeStateMachineTransition" id=11]
 
-[sub_resource type="AnimationNodeStateMachine" id=12]
-states/die/node = SubResource( 6 )
+[sub_resource type="AnimationNodeStateMachineTransition" id=12]
+
+[sub_resource type="AnimationNodeStateMachine" id=13]
+states/die/node = SubResource( 7 )
 states/die/position = Vector2( -1098, 250 )
-states/idle/node = SubResource( 7 )
+states/idle/node = SubResource( 8 )
 states/idle/position = Vector2( -1241, 175 )
-states/move/node = SubResource( 8 )
+states/move/node = SubResource( 9 )
 states/move/position = Vector2( -1086, 133 )
-transitions = [ "idle", "move", SubResource( 9 ), "move", "idle", SubResource( 10 ), "idle", "die", SubResource( 11 ) ]
+transitions = [ "idle", "move", SubResource( 10 ), "move", "idle", SubResource( 11 ), "idle", "die", SubResource( 12 ) ]
 graph_offset = Vector2( -1834, 76 )
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id=13]
+[sub_resource type="AnimationNodeStateMachinePlayback" id=14]
 
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 512, 416 )
@@ -1642,7 +1642,7 @@ shape = SubResource( 5 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 position = Vector2( -51.6942, -302.411 )
-shape = SubResource( 14 )
+shape = SubResource( 6 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 372.34, -57.8834 )
@@ -1658,7 +1658,7 @@ drag_margin_bottom = 0.4
 editor_draw_drag_margin = true
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
-tree_root = SubResource( 12 )
+tree_root = SubResource( 13 )
 anim_player = NodePath("../Cart/AnimationPlayer")
 active = true
-parameters/playback = SubResource( 13 )
+parameters/playback = SubResource( 14 )

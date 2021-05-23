@@ -1,17 +1,21 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://assets/player/cart_mast.png" type="Texture" id=5]
+[ext_resource path="res://docs/assets/player/cart_mast.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 23.4939, 127.29 )
+extents = Vector2( 23.4939, 128.695 )
 
 [node name="World" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 448.433, 506.224 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2( 96.2322, 77.726 )
+position = Vector2( 49.0698, 163.849 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Floor" type="Sprite" parent="StaticBody2D"]
 position = Vector2( 496.858, 638.463 )
@@ -20,7 +24,7 @@ scale = Vector2( 3.53798, -3.8758 )
 texture = ExtResource( 5 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 496.858, 638.463 )
-rotation = 1.5708
+position = Vector2( 493.537, 633.011 )
+rotation = 4.71379
 scale = Vector2( 3.53798, -3.8758 )
 shape = SubResource( 1 )
