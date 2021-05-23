@@ -1,30 +1,116 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://docs/assets/player/cart_mast.png" type="Texture" id=5]
-
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 23.4939, 128.695 )
+[ext_resource path="res://scenes/OutsideGround.tscn" type="PackedScene" id=2]
 
 [node name="World" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 448.433, 506.224 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2( 49.0698, 163.849 )
-__meta__ = {
-"_edit_group_": true
-}
+[node name="Grass" type="Node" parent="."]
 
-[node name="Floor" type="Sprite" parent="StaticBody2D"]
-position = Vector2( 496.858, 638.463 )
-rotation = 1.5708
-scale = Vector2( 3.53798, -3.8758 )
-texture = ExtResource( 5 )
+[node name="OutsideGround" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -608, 736 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 493.537, 633.011 )
-rotation = 4.71379
-scale = Vector2( 3.53798, -3.8758 )
-shape = SubResource( 1 )
+[node name="OutsideGround2" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -416, 736 )
+
+[node name="OutsideGround3" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -224, 736 )
+
+[node name="OutsideGround4" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -32, 736 )
+
+[node name="OutsideGround5" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 128, 736 )
+
+[node name="OutsideGround6" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 320, 736 )
+
+[node name="OutsideGround7" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 512, 736 )
+
+[node name="OutsideGround8" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 704, 736 )
+
+[node name="OutsideGround9" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 896, 736 )
+
+[node name="OutsideGround10" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 1088, 736 )
+
+[node name="OutsideGround11" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 1280, 736 )
+
+[node name="OutsideGround12" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 1472, 736 )
+
+[node name="OutsideGround13" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 1664, 736 )
+
+[node name="OutsideGround14" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 1856, 736 )
+
+[node name="OutsideGround15" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 2048, 736 )
+
+[node name="OutsideGround16" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 2240, 736 )
+
+[node name="OutsideGround17" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 2432, 736 )
+
+[node name="OutsideGround18" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 2624, 736 )
+
+[node name="OutsideGround19" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 2816, 736 )
+
+[node name="OutsideGround20" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 3008, 736 )
+
+[node name="OutsideGround21" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( 3200, 736 )
+
+[node name="OutsideGround22" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -800, 736 )
+
+[node name="OutsideGround23" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -992, 736 )
+
+[node name="OutsideGround24" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -1184, 736 )
+
+[node name="OutsideGround25" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -1376, 736 )
+
+[node name="OutsideGround26" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -1568, 736 )
+
+[node name="OutsideGround27" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -1760, 736 )
+
+[node name="OutsideGround28" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -1952, 736 )
+
+[node name="OutsideGround29" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -2144, 736 )
+
+[node name="OutsideGround30" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -2336, 736 )
+
+[node name="OutsideGround31" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -2528, 736 )
+
+[node name="OutsideGround32" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -2720, 736 )
+
+[node name="OutsideGround33" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -2912, 736 )
+
+[node name="OutsideGround34" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -3104, 736 )
+
+[node name="OutsideGround35" parent="Grass" instance=ExtResource( 2 )]
+position = Vector2( -3296, 736 )
