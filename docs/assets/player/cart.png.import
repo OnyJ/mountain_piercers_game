@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wheel.png-8630767e6c885276b910ac4883909f8a.stex"
+path="res://.import/cart.png-4c65c811be85d37d2a1bc8d27c7adb13.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/wheel.png"
-dest_files=[ "res://.import/wheel.png-8630767e6c885276b910ac4883909f8a.stex" ]
+source_file="res://docs/assets/player/cart.png"
+dest_files=[ "res://.import/cart.png-4c65c811be85d37d2a1bc8d27c7adb13.stex" ]
 
 [params]
 

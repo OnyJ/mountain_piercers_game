@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/body_shooter.png-299bdc533ea3a6ee506bb7c2d397c738.stex"
+path="res://.import/body_angry.png-828a8b0d09b42d287e35676f48e83608.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/body_shooter.png"
-dest_files=[ "res://.import/body_shooter.png-299bdc533ea3a6ee506bb7c2d397c738.stex" ]
+source_file="res://docs/assets/player/body_angry.png"
+dest_files=[ "res://.import/body_angry.png-828a8b0d09b42d287e35676f48e83608.stex" ]
 
 [params]
 

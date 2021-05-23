@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arm_leg.png-e26123db39ea43ba6ba4cec4e694bcde.stex"
+path="res://.import/ground_rock.png-d25521c7025d98e4c075705a2c7c5283.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/arm_leg.png"
-dest_files=[ "res://.import/arm_leg.png-e26123db39ea43ba6ba4cec4e694bcde.stex" ]
+source_file="res://docs/assets/ground/ground_rock.png"
+dest_files=[ "res://.import/ground_rock.png-d25521c7025d98e4c075705a2c7c5283.stex" ]
 
 [params]
 

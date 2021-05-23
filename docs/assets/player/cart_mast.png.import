@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cart_mast.png-d40163c2ea29b861b971b8f26070f528.stex"
+path="res://.import/cart_mast.png-82c7839886773ab955c055da7852e30e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/cart_mast.png"
-dest_files=[ "res://.import/cart_mast.png-d40163c2ea29b861b971b8f26070f528.stex" ]
+source_file="res://docs/assets/player/cart_mast.png"
+dest_files=[ "res://.import/cart_mast.png-82c7839886773ab955c055da7852e30e.stex" ]
 
 [params]
 

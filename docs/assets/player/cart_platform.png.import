@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/body_happy.png-a9c2c2ed210ae5eeb76819420a6d768b.stex"
+path="res://.import/cart_platform.png-7e474beecdb3367378303fb6b9a93c4d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/body_happy.png"
-dest_files=[ "res://.import/body_happy.png-a9c2c2ed210ae5eeb76819420a6d768b.stex" ]
+source_file="res://docs/assets/player/cart_platform.png"
+dest_files=[ "res://.import/cart_platform.png-7e474beecdb3367378303fb6b9a93c4d.stex" ]
 
 [params]
 
