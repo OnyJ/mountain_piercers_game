@@ -38,7 +38,7 @@ x global : github
 x chara  : design parts https://tinyurl.com/Gd2dAnim
 x chara  : animations (static, forward, backw)
 x chara  : explosion = die
-- chara  : movements + collisions
+x chara  : movements + collisions
 - chara  : camera https://tinyurl.com/ytCamera2d
 - shoot  : design projectiles
 - shoot  : shoot animation
