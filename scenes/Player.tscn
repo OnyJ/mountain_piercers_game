@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://assets/player/wheel.png" type="Texture" id=1]
 [ext_resource path="res://assets/player/cart.png" type="Texture" id=2]
@@ -1496,7 +1496,10 @@ tracks/29/keys = {
 }
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 32, 32 )
+extents = Vector2( 252.76, 114.368 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 48.5679, 203.54 )
 
 [sub_resource type="AnimationNodeAnimation" id=6]
 animation = "die"
@@ -1631,8 +1634,12 @@ anims/idle = SubResource( 3 )
 anims/move = SubResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
+position = Vector2( -64.6177, -19.3853 )
 shape = SubResource( 5 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2( -51.6942, -302.411 )
+shape = SubResource( 14 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 242.688, -253.846 )
