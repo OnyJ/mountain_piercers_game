@@ -1534,6 +1534,9 @@ script = ExtResource( 10 )
 
 [node name="Cart" type="Sprite" parent="."]
 texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Wheel1" type="Sprite" parent="Cart"]
 show_behind_parent = true
@@ -1633,7 +1636,7 @@ anims/hurt = SubResource( 2 )
 anims/idle = SubResource( 3 )
 anims/move = SubResource( 4 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cart"]
 position = Vector2( -64.6177, -19.3853 )
 shape = SubResource( 5 )
 
@@ -1642,9 +1645,17 @@ position = Vector2( -51.6942, -302.411 )
 shape = SubResource( 14 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 242.688, -253.846 )
+position = Vector2( 372.34, -57.8834 )
+scale = Vector2( 2.72, 1.96 )
+offset = Vector2( 20, -150 )
+current = true
 zoom = Vector2( 3, 2.5 )
 smoothing_enabled = true
+drag_margin_left = 0.51
+drag_margin_top = 0.0
+drag_margin_right = 0.1
+drag_margin_bottom = 0.4
+editor_draw_drag_margin = true
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource( 12 )
