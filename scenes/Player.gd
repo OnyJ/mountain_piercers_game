@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 const UP = Vector2(0, -1)
 const GRAVITY = 120
-const SPEED = 100
+const SPEED = 350
 const JUMP_HEIGHT = -150
 var motion = Vector2()  # can store x and y value
 var state_machine
