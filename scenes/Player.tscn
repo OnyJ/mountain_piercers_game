@@ -9,8 +9,8 @@
 [ext_resource path="res://docs/assets/player/body_angry.png" type="Texture" id=7]
 [ext_resource path="res://docs/assets/player/body_happy.png" type="Texture" id=8]
 [ext_resource path="res://docs/assets/player/shooter_mouth_closed.png" type="Texture" id=9]
-[ext_resource path="res://scenes/Player.gd" type="Script" id=10]
-[ext_resource path="res://scenes/Mouth.gd" type="Script" id=11]
+[ext_resource path="res://scripts/Player.gd" type="Script" id=10]
+[ext_resource path="res://scripts/Mouth.gd" type="Script" id=11]
 
 [sub_resource type="Animation" id=1]
 resource_name = "die"
