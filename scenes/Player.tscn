@@ -1529,12 +1529,14 @@ graph_offset = Vector2( -1834, 76 )
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=14]
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" groups=[
+"player",
+]]
 position = Vector2( 512, 416 )
 script = ExtResource( 10 )
 
 [node name="Cart" type="Sprite" parent="."]
-position = Vector2( -0.195035, -0.396007 )
+position = Vector2( -1.04965, 2.90032 )
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -1575,6 +1577,11 @@ texture = ExtResource( 4 )
 position = Vector2( 63.9246, 0 )
 texture = ExtResource( 9 )
 script = ExtResource( 11 )
+
+[node name="ShootingPoint" type="Node2D" parent="Cart/CartMast/CartPlatform/Shooter/Mouth" groups=[
+"player",
+]]
+position = Vector2( 70, -3 )
 
 [node name="AngryCharacter" type="Sprite" parent="Cart"]
 show_behind_parent = true
