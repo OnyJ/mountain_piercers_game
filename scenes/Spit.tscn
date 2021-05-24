@@ -1,10 +1,11 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://docs/assets/player/spit.png" type="Texture" id=1]
 [ext_resource path="res://scenes/Spit.gd" type="Script" id=2]
 
-[sub_resource type="CircleShape2D" id=1]
-radius = 11.3768
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 8.90976
+height = 15.6975
 
 [node name="Spit" type="RigidBody2D"]
 contacts_reported = 1
@@ -15,5 +16,7 @@ script = ExtResource( 2 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -7.62939e-06 )
+rotation = 1.56454
 shape = SubResource( 1 )
 [connection signal="body_entered" from="." to="." method="_on_Spit_body_entered"]
