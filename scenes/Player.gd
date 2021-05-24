@@ -16,7 +16,6 @@ var state_machine
 # 	set_physics_process(false)
 
 func get_input():
-	# $Cart/AnimationPlayer.play("idle")
 	motion.y += GRAVITY
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
