@@ -47,9 +47,9 @@ x shoot  : shoot animation
 x shoot  : shoot collisions
 x global : separate gd/tscn files
 x map    : ground texture (repetition)
-- map    : design 1 wall type
-- map    : design 1 wall cracking level * 3 types
-- map    : design 1 wall falling parts
+x map    : design 1 wall type
+x map    : design 1 wall cracking level * 3 types
+i map    : design 1 wall falling parts
 - map    : implement wall
 - map    : implement wall falling animation
 - map    : wall interaction (cracking/falling) on hp
