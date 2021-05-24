@@ -10,6 +10,7 @@ index
   - bonus
   - architecture
   - doc
+  - doc history
   - design history
 
 description
@@ -39,11 +40,13 @@ x chara  : design parts https://tinyurl.com/Gd2dAnim
 x chara  : animations (static, forward, backw)
 x chara  : explosion = die
 x chara  : movements + collisions
-- chara  : camera https://tinyurl.com/ytCamera2d
-- shoot  : design projectiles
-- shoot  : shoot animation
-- shoot  : shoot collisions
-- map    : ground texture (repetition)
+x chara  : camera https://tinyurl.com/ytCamera2d
+x shoot  : design projectiles
+  https://www.youtube.com/watch?v=wRcGbQBq28c
+x shoot  : shoot animation
+x shoot  : shoot collisions
+x global : separate gd/tscn files
+x map    : ground texture (repetition)
 - map    : design 1 wall type
 - map    : design 1 wall cracking level * 3 types
 - map    : design 1 wall falling parts
@@ -70,13 +73,17 @@ x sound  : music
 - menu   : play game
 - menu   : pause game
 - menu   : quit game
+- assets : icon.png = custom
 - submit : submit v1 online, export godot
 - submit : screenshoots, gifs and page details, logo
 
 
 bonus
+- map    : moving details(plantsWind,waterfalls,dust)
 - map    : detais (spiderweb,rocks,stripes...)
 - items  : design bonus weapons/projectiles
+- items  : projectil: spit,flame,shuriken,hatchet
+- player : if spit hatchets, bigger mouth
 - items  : weapons animations/collisions/replacement
 - items  : weapons sounds
 - items  : appearence by level
@@ -119,10 +126,16 @@ documentation
     https://tinyurl.com/ytGodot50min
 - AI that follows you
     https://tinyurl.com/ytAIfollowYou
-- Godot Cutout Animations Yt
-    https://tinyurl.com/ytCutoutAnimations
 - Control animation states
     https://tinyurl.com/gdAnimationStateMachine
+
+doc_history
+- animation
+  - Godot Cutout Animations - Yt
+    https://tinyurl.com/ytCutoutAnimations
+- shooting
+  - Top Down 2D Shooting in Godot - Yt
+    https://www.youtube.com/watch?v=cei9BZMzVLY
 
 design history
  scales for sprites
