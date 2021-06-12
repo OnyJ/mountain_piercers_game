@@ -1648,9 +1648,9 @@ anims/hurt = SubResource( 2 )
 anims/idle = SubResource( 3 )
 anims/move = SubResource( 4 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Cart"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
-position = Vector2( -64.6177, -19.3853 )
+position = Vector2( -65.6674, -16.485 )
 shape = SubResource( 5 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
