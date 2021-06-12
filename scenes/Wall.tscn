@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/WallCut.tscn" type="PackedScene" id=2]
+
+[node name="Wall" type="Node2D"]
+
+[node name="WallCut" parent="." instance=ExtResource( 2 )]
+position = Vector2( -234.045, 497.244 )
+
+[node name="WallCut2" parent="." instance=ExtResource( 2 )]
+position = Vector2( -67.2449, 156.838 )
+
+[node name="WallCut3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 78.405, -144.861 )
+
+[node name="WallCut4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236.815, -475.16 )

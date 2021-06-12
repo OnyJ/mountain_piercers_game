@@ -2,7 +2,7 @@
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/OutsideGround.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/WallCut.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Wall.tscn" type="PackedScene" id=3]
 
 [sub_resource type="SegmentShape2D" id=1]
 
@@ -118,23 +118,12 @@ position = Vector2( -3104, 736 )
 [node name="OutsideGround35" parent="Grass" instance=ExtResource( 2 )]
 position = Vector2( -3296, 736 )
 
-[node name="FirstWall" type="Node2D" parent="."]
-
-[node name="WallCut" parent="FirstWall" instance=ExtResource( 3 )]
-position = Vector2( 3232, 480 )
-
-[node name="WallCut2" parent="FirstWall" instance=ExtResource( 3 )]
-position = Vector2( 3398.8, 139.594 )
-
-[node name="WallCut3" parent="FirstWall" instance=ExtResource( 3 )]
-position = Vector2( 3544.45, -162.105 )
-
-[node name="WallCut4" parent="FirstWall" instance=ExtResource( 3 )]
-position = Vector2( 3702.86, -492.404 )
-
 [node name="MapLimit" type="StaticBody2D" parent="."]
 position = Vector2( -1280, 416 )
 scale = Vector2( 8.48195, 24.2081 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="MapLimit"]
 shape = SubResource( 1 )
+
+[node name="Wall" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3484.59, -27.4879 )
