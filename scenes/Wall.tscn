@@ -129,19 +129,15 @@ tracks/9/keys = {
 
 [node name="WallCut" parent="." instance=ExtResource( 2 )]
 position = Vector2( -234.045, 497.244 )
-rotation = 1.56823
 
 [node name="WallCut2" parent="." instance=ExtResource( 2 )]
-position = Vector2( -17.0338, 486 )
-rotation = -1.54753
+position = Vector2( -67.2449, 156.838 )
 
 [node name="WallCut3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 61.6678, 393.514 )
-rotation = 2.1379
+position = Vector2( 78.405, -144.861 )
 
 [node name="WallCut4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 206.131, 498.378 )
-rotation = 1.57619
+position = Vector2( 236.815, -475.16 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/fall = SubResource( 1 )
