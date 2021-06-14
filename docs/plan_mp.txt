@@ -52,6 +52,19 @@ x map    : design 1 wall cracking level * 3 types
 i map    : design 1 wall falling parts
 x map    : implement wall
 x map    : implement wall falling animation
+- player : health system
+           - aim ranged attacks
+              I want the player to be able to take damages
+              By the way enemies will be painful
+              Next, walls will be able to take damages
+              - apply these btw draft spider enemy and Player
+                (a static img, which is the future spider)
+              - eventually apply btw flying monster (dirty draft)
+              -> https://www.youtube.com/watch?v=_kA1fbBH4ug&list=PL4QJmtZWf50l94kf-WItXOsgBkPMGiJgg&index=8
+           - healthbar
+              https://www.youtube.com/watch?v=YEZXVK1-tlU
+              (or maybe in top left.. better)
+              follow link for monsters
 - map    : wall interaction (cracking/falling) on hp
 - monstr : design 1 monster parts (pink spider)
 - monstr : animations (walk, attack, die) 
@@ -76,6 +89,9 @@ x sound  : music
 - assets : icon.png = custom
 - submit : submit v1 online, export godot
 - submit : screenshoots, gifs and page details, logo
+
+checkpoint
+https://www.youtube.com/results?search_query=health+godot
 
 
 bonus
