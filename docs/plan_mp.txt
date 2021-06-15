@@ -126,24 +126,33 @@ architecture
  
 
 documentation
-- Random Level Generation Playlist Youtube
-    https://tinyurl.com/ytRandomLevelGen
-- Platform Game Tutorial Playlist Youtube
+  general
+  - Platform Game Tutorial Playlist Youtube
     https://tinyurl.com/ytPlatformGamePlaylist
-- Autotile youtube
-    https://tinyurl.com/ytAutotile
-- Wikihow sprite sheets
-    https://tinyurl.com/wikihowSprites
-- Menu UI Signals
-    https://tinyurl.com/ytMenuSignalUI
-- Parallax Background Yt
-    https://tinyurl.com/ytParallaxBg
-- Godot 50min Yt
+  - Godot 50min Yt
     https://tinyurl.com/ytGodot50min
-- AI that follows you
+  map
+  - Random Level Generation Playlist Youtube
+    https://tinyurl.com/ytRandomLevelGen
+  - Autotile youtube
+    https://tinyurl.com/ytAutotile
+  - Parallax Background Yt
+    https://tinyurl.com/ytParallaxBg
+  enemy
+  - AI that follows you
     https://tinyurl.com/ytAIfollowYou
-- Control animation states
+  animation
+  - Control animation states
     https://tinyurl.com/gdAnimationStateMachine
+  physics
+  - Throw attack with gravity
+    https://tinyurl.com/YtGameEndeavorThrwGravity
+  UI
+  - Menu UI Signals
+    https://tinyurl.com/ytMenuSignalUI
+  design
+  - Wikihow sprite sheets
+    https://tinyurl.com/wikihowSprites
 
 doc_history
 - animation
