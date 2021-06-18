@@ -1184,7 +1184,6 @@ graph_offset = Vector2( -1834, 76 )
 [node name="Player" type="KinematicBody2D" groups=[
 "player",
 ]]
-modulate = Color( 0.890196, 0.392157, 0.392157, 1 )
 position = Vector2( 512, 416 )
 script = ExtResource( 10 )
 
