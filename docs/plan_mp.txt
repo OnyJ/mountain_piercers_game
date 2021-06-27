@@ -52,24 +52,28 @@ x map    : design 1 wall cracking level * 3 types
 i map    : design 1 wall falling parts
 x map    : implement wall
 x map    : implement wall falling animation
+- player : health: player touches obj -> take dmg
+           check at 4.20 : 
+           https://www.youtube.com/watch?v=4WywpSBncFI
+- player : health: player shoot obj -> deal dmg>obj
+- player : health: lifebar on top screen
+- wall   : health: wall can take damage
+- wall   : health: appear 'cracks' img depends on hp
+- enemy  : ugly draft enemy can deal/take damages
+- enemy  : healthbar visible
+           https://www.youtube.com/watch?v=YEZXVK1-tlU
+- enemy  : ugly draft enemy have IA
+- enemy  : spider design + animations
+           (idle,attack,move,die)
+- enemy  : flying monster
+           https://tinyurl.com/YtGameEndeavorThrwGravity
 - player : health system
-           - aim ranged attacks
-              I want the player to be able to take damages
-              By the way enemies will be painful
-              Next, walls will be able to take damages
-              - apply these btw draft spider enemy and Player
-                (a static img, which is the future spider)
-              - eventually apply btw flying monster (dirty draft)
-              -> https://www.youtube.com/watch?v=_kA1fbBH4ug&list=PL4QJmtZWf50l94kf-WItXOsgBkPMGiJgg&index=8
-           - healthbar
-              https://www.youtube.com/watch?v=YEZXVK1-tlU
-              (or maybe in top left.. better)
-              follow link for monsters
 - map    : wall interaction (cracking/falling) on hp
 - monstr : design 1 monster parts (pink spider)
 - monstr : animations (walk, attack, die) 
 - monstr : movements + collisions
 - monstr : IA direction (left+detect char)
+           https://www.youtube.com/watch?v=4WywpSBncFI
 - monstr : IA + attack if near
 - game   : hp bar (cf doc > menu ui signals)
 - game   : detect death
