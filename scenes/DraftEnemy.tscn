@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
 [ext_resource path="res://scripts/DraftEnemy.gd" type="Script" id=2]
@@ -11,6 +11,26 @@ extents = Vector2( 69.0787, 50.0342 )
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 71.4736, 10 )
+
+[sub_resource type="Animation" id=4]
+resource_name = "attack"
+tracks/0/type = "method"
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.8 ),
+"transitions": PoolRealArray( 1, 1 ),
+"values": [ {
+"args": [  ],
+"method": "hit"
+}, {
+"args": [  ],
+"method": "end_of_hit"
+} ]
+}
 
 [node name="DraftEnemy" type="KinematicBody2D"]
 script = ExtResource( 2 )
@@ -29,11 +49,16 @@ shape = SubResource( 1 )
 position = Vector2( -120.945, -17.9621 )
 shape = SubResource( 2 )
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="AttackDetector" type="Area2D" parent="."]
 monitoring = false
 monitorable = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackDetector"]
 modulate = Color( 0.0392157, 0, 0.733333, 1 )
 position = Vector2( -122.143, -14.9685 )
 shape = SubResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/attack = SubResource( 4 )
+[connection signal="body_entered" from="PlayerDetector" to="." method="_on_PlayerDetector_body_entered"]
+[connection signal="body_entered" from="AttackDetector" to="." method="_on_AttackDetector_body_entered"]
