@@ -6,13 +6,13 @@ extends KinematicBody2D
 var is_moving_left = true
 var gravity = 10
 var velocity = Vector2(0, 0)
-var speed = 330
+var speed = 330  # pixels per seconds ?
 
 func _ready():
 	# $AnimationPlayer.play("walk")
 	pass
 
-func _process(__delta):
+func _process(_delta):
 	move_character()
 
 func move_character():
@@ -22,7 +22,9 @@ func move_character():
 	velocity = move_and_slide(velocity, Vector2.UP )
 
 func hit():
-	$PlayerDetector.monitoring = false
+	$PlayerDetector.monitoring = true
 
+func end_of_hit():
+	$PlayerDetector.monitoring = false
 # func start_walk():
 # 	$AnimationPlayer.play("move")
